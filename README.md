@@ -24,18 +24,8 @@ The test set should be used to see how well your model performs on unseen data. 
 
 We also include gender_submission.csv, a set of predictions that assume all and only female passengers survive, as an example of what a submission file should look like.
 
-Data Dictionary
-Variable	     Definition   	            Key
-survival	     Survival	                  0 = No, 1 = Yes
-pclass	       Ticket class	              1 = 1st, 2 = 2nd, 3 = 3rd
-sex          	 Sex	
-Age	           Age in years	
-sibsp	         # of siblings / spouses aboard the Titanic	
-parch	         # of parents / children aboard the Titanic	
-ticket	       Ticket number	
-fare	         Passenger fare	
-cabin	         Cabin number	
-embarked	     Port of Embarkation	       C = Cherbourg, Q = Queenstown, S = Southampton
+Variable: survival, pclass, sex, Age, sibsp, parch, ticket, fare, cabin, embarked	     	      
+Definition: Survival, Ticket class, Sex, Age in years, # of siblings / spouses aboard the Titanic, 	# of parents / children aboard the Titanic, Ticket number, Passenger fare,  Cabin number, Port of Embarkation
 
 Variable Notes
 pclass: A proxy for socio-economic status (SES)
@@ -53,3 +43,5 @@ parch: The dataset defines family relations in this way...
 Parent = mother, father
 Child = daughter, son, stepdaughter, stepson
 Some children travelled only with a nanny, therefore parch=0 for them.
+
+Competition link: https://www.kaggle.com/c/titanic/data
